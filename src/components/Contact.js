@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Github, Linkedin, Twitter } from 'lucide-react';
 
 
@@ -66,9 +66,9 @@ const Contact = () => {
           </div>
         </form>
          <div>
-        <div className="flex space-x-6 mb-2">
+        <div className="flex space-x-6 mb-2 mt-2">
             {socialLinks.map((link) => (
-              <a key={link.name}  href={link.href} className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-500 transition-colors">
+              <a key={link.name} href={link.href} target="_blank" rel='noreferrer' className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-500 transition-colors">
                 {link.icon}
               </a>
             ))}

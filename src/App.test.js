@@ -8,6 +8,6 @@ test('renders the hero section heading', () => {
       <App />
     </ThemeProvider>
   );
-  const heroElement = screen.getByRole('heading', { name: /Full-Stack JavaScript Engineer/i });
+  const heroElement = screen.getByRole('heading', { name: /Software Engineer/i });
   expect(heroElement).toBeInTheDocument();
 });
