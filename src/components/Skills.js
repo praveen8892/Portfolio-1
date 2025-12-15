@@ -10,6 +10,10 @@ const skills = [
   { name: 'Redux', icon: <Share2 className="h-8 w-8 mx-auto mb-2" /> },
   { name: 'Git', icon: <GitMerge className="h-8 w-8 mx-auto mb-2" /> },
   { name: 'GitHub', icon: <Github className="h-8 w-8 mx-auto mb-2" /> },
+    { name: 'GitHub', icon: <Github className="h-8 w-8 mx-auto mb-2" /> },
+
+      { name: 'GitHub', icon: <Github className="h-8 w-8 mx-auto mb-2" /> },
+
 ];
 
 const Skills = () => {

@@ -1,5 +1,7 @@
 import React from 'react';
 import ScrollAnimationWrapper from './ScrollAnimationWrapper';
+import { motion } from 'framer-motion';
+
 
 const blogPosts = [
   {
@@ -24,6 +26,11 @@ const Blog = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {blogPosts.map((post) => (
             <ScrollAnimationWrapper key={post.title}>
+               <motion.div
+                className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg text-center"
+                whileHover={{ scale: 1.1, rotate: 2 }}
+                transition={{ type: 'spring', stiffness: 200 }}
+              >
               <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden flex items-center">
                 <img src={post.imageUrl} alt={post.title} className="w-32 h-32 object-cover" />
                 <div className="p-4">
@@ -32,6 +39,7 @@ const Blog = () => {
                   <p className="text-gray-700 dark:text-gray-300 text-sm">{post.description}</p>
                 </div>
               </div>
+              </motion.div>
             </ScrollAnimationWrapper>
           ))}
         </div>
