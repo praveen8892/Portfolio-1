@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+      <title>My Portfolio</title>
       <Header />
       <main className="container mx-auto p-4 pb-20">
         <Hero />

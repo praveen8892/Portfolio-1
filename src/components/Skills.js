@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { Aperture, Bot, Code, GitMerge, Github, Share2 } from 'lucide-react';
 import ScrollAnimationWrapper from './ScrollAnimationWrapper';
 
@@ -19,10 +20,14 @@ const Skills = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
           {skills.map((skill) => (
             <ScrollAnimationWrapper key={skill.name}>
-              <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg text-center">
+              <motion.div
+                className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg text-center"
+                whileHover={{ scale: 1.1, rotate: 5 }}
+                transition={{ type: 'spring', stiffness: 300 }}
+              >
                 {skill.icon}
                 <h3 className="text-lg font-semibold">{skill.name}</h3>
-              </div>
+              </motion.div>
             </ScrollAnimationWrapper>
           ))}
         </div>
