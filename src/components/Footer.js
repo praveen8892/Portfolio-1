@@ -24,8 +24,7 @@ const Footer = () => {
           ))}
         </nav>
         <div className="flex flex-col items-center mb-4">
-          <p className="text-sm text-gray-600 dark:text-gray-400">&copy; {new Date().getFullYear()}
-             Praveen Ranatur. All rights reserved.</p>
+          <p className="text-sm text-gray-600 dark:text-gray-400">&copy; {new Date().getFullYear()} Praveen Ranatur. All rights reserved.</p>
         </div>
       
       </div>

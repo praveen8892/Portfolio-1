@@ -1,16 +1,20 @@
 import { motion } from 'framer-motion';
 import ScrollAnimationWrapper from './ScrollAnimationWrapper';
-import {FaReact,FaNodeJs,FaGithub,FaHtml5     } from 'react-icons/fa';
+import {FaReact,FaNodeJs,FaGithub,FaHtml5,FaCss3     } from 'react-icons/fa';
 import { RiNextjsFill } from "react-icons/ri";
 import { SiRedux } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+
 
 const skills = [
   { name: 'HTML', icon: <FaHtml5   className="h-8 w-8 mx-auto mb-2" /> },
-  { name: 'React', icon: <FaReact className="h-8 w-8 mx-auto mb-2" /> },
+  { name: 'CSS', icon: <FaCss3  className="h-8 w-8 mx-auto mb-2" /> }, 
+  { name: 'React.JS', icon: <FaReact className="h-8 w-8 mx-auto mb-2" /> },
   { name: 'Next.js', icon: <RiNextjsFill   className="h-8 w-8 mx-auto mb-2" /> },
+  { name: 'TypeScript', icon: <SiTypescript   className="h-8 w-8 mx-auto mb-2" /> },
   { name: 'Node.js', icon: <FaNodeJs  className="h-8 w-8 mx-auto mb-2" /> },
   { name: 'Redux', icon: <SiRedux className="h-8 w-8 mx-auto mb-2" /> },
-  { name: 'GitHub', icon: <FaGithub  className="h-8 w-8 mx-auto mb-2" /> },
+  { name: 'GitHub', icon: <FaGithub  className="h-8 w-8 mx-auto mb-2" /> }, 
 ];
 
 const Skills = () => {
