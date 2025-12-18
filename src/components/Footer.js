@@ -1,5 +1,6 @@
 import React from 'react';
 import { Home, User, Code, Rss, Mail } from 'lucide-react';
+import ThemeToggleButton from './ThemeToggleButton';
 
 
 
@@ -9,11 +10,13 @@ const navLinks = [
   { name: 'Projects', icon: <Code className="h-5 w-5 mx-auto" />, href: '#projects' },
   { name: 'Blog', icon: <Rss className="h-5 w-5 mx-auto" />, href: '#blog' },
   { name: 'Contact', icon: <Mail className="h-5 w-5 mx-auto" />, href: '#contact' },
+  {name:"", icon:<ThemeToggleButton/>}
 ];
 
 const Footer = () => {
   return (
     <footer className="bg-gray-100 dark:bg-gray-800 pt-6 sticky bottom-0 z-10">
+     
       <div className="container mx-auto px-4">
           <nav className="flex justify-around py-3 border-t border-gray-200 dark:border-gray-700">
           {navLinks.map((link) => (
@@ -23,6 +26,7 @@ const Footer = () => {
             </a>
           ))}
         </nav>
+       
         <div className="flex flex-col items-center mb-4">
           <p className="text-sm text-gray-600 dark:text-gray-400">&copy; {new Date().getFullYear()} Praveen Ranatur. All rights reserved.</p>
         </div>
