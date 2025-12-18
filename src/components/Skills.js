@@ -1,19 +1,16 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { Aperture, Bot, Code, GitMerge, Github, Share2 } from 'lucide-react';
 import ScrollAnimationWrapper from './ScrollAnimationWrapper';
+import {FaReact,FaNodeJs,FaGithub,FaHtml5     } from 'react-icons/fa';
+import { RiNextjsFill } from "react-icons/ri";
+import { SiRedux } from "react-icons/si";
 
 const skills = [
-  { name: 'React', icon: <Aperture className="h-8 w-8 mx-auto mb-2" /> },
-  { name: 'Next.js', icon: <Bot className="h-8 w-8 mx-auto mb-2" /> },
-  { name: 'Node.js', icon: <Code className="h-8 w-8 mx-auto mb-2" /> },
-  { name: 'Redux', icon: <Share2 className="h-8 w-8 mx-auto mb-2" /> },
-  { name: 'Git', icon: <GitMerge className="h-8 w-8 mx-auto mb-2" /> },
-  { name: 'GitHub', icon: <Github className="h-8 w-8 mx-auto mb-2" /> },
-    { name: 'GitHub', icon: <Github className="h-8 w-8 mx-auto mb-2" /> },
-
-      { name: 'GitHub', icon: <Github className="h-8 w-8 mx-auto mb-2" /> },
-
+  { name: 'HTML', icon: <FaHtml5   className="h-8 w-8 mx-auto mb-2" /> },
+  { name: 'React', icon: <FaReact className="h-8 w-8 mx-auto mb-2" /> },
+  { name: 'Next.js', icon: <RiNextjsFill   className="h-8 w-8 mx-auto mb-2" /> },
+  { name: 'Node.js', icon: <FaNodeJs  className="h-8 w-8 mx-auto mb-2" /> },
+  { name: 'Redux', icon: <SiRedux className="h-8 w-8 mx-auto mb-2" /> },
+  { name: 'GitHub', icon: <FaGithub  className="h-8 w-8 mx-auto mb-2" /> },
 ];
 
 const Skills = () => {

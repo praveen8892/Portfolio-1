@@ -1,5 +1,6 @@
 import  { useState } from 'react';
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import {FaLinkedin,FaGithub,FaTwitter   } from 'react-icons/fa';
+
 
 
 const Contact = () => {
@@ -7,9 +8,9 @@ const Contact = () => {
   const [errors, setErrors] = useState({});
 
   const socialLinks = [
-  { name: 'GitHub', icon: <Github className="h-6 w-6" />, href: 'https://github.com/praveen8892' },
-  { name: 'LinkedIn', icon: <Linkedin className="h-6 w-6" />, href: '#' },
-  { name: 'Twitter', icon: <Twitter className="h-6 w-6" />, href: '#' },
+  { name: 'GitHub', icon: <FaGithub className="h-6 w-6" />, href: 'https://github.com/praveen8892' },
+  { name: 'LinkedIn', icon: <FaLinkedin className="h-6 w-6" />, href: '#' },
+  { name: 'Twitter', icon: <FaTwitter  className="h-6 w-6" />, href: '#' },
 ];
 
 
@@ -42,7 +43,8 @@ const Contact = () => {
   return (
     <section id="contact" className="py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">Contact</h2>
+        
+        <h2 className="text-3xl font-bold mb-8 text-center">Contact </h2>
         <form onSubmit={handleSubmit} noValidate className="max-w-xl mx-auto">
           <div className="mb-4">
             <label htmlFor="name" className="block text-gray-700 dark:text-gray-300 font-semibold mb-2">Name</label>

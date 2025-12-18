@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(167, 118, 227, 1) 47%, rgba(148, 187, 233, 1) 100%);
+linear-gradient(90deg,rgba(48, 116, 227, 1) 0%, rgba(164, 198, 235, 1) 45%, rgba(82, 109, 227, 1) 100%);
+linear-gradient(6deg, rgb(217, 164, 235) 0%, rgb(172, 228, 242) 50%, rgb(196, 129, 230) 100%);
+radial-gradient(circle,rgba(217, 164, 235, 1) 0%, rgba(172, 228, 242, 1) 50%, rgba(196, 129, 230, 1) 100%)
+
+
+linear-gradient(135deg, rgb(49, 44, 0) 0%, rgb(49, 44, 0) 14.286%, rgb(51, 46, 30) calc(14.286% + 1px), rgb(51, 46, 30) 28.571%, rgb(50, 49, 73) calc(28.571% + 1px), rgb(50, 49, 73) 42.857%, rgb(44, 51, 119) calc(42.857% + 1px), rgb(44, 51, 119) 57.143%, rgb(36, 54, 162) calc(57.143% + 1px), rgb(36, 54, 162) 71.429%, rgb(26, 57, 192) calc(71.429% + 1px), rgb(26, 57, 192) 85.714%, rgb(17, 60, 204) calc(85.714% + 1px), rgb(17, 60, 204) 100%);
+
+
+
+         .btn-grad {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here 
+            color: #fff;
+            text-decoration: none;
+          }
+         
+          style="background-image: conic-gradient(from 105deg, rgb(255, 191, 171) 0deg, rgb(255, 191, 171) 9.73deg, rgb(254, 173, 169) calc(9.83deg), rgb(254, 173, 169) 19.459deg, rgb(237, 156, 167) calc(19.559deg), rgb(237, 156, 167) 29.189deg, rgb(220, 138, 165) calc(29.289deg), rgb(220, 138, 165) 38.919deg, rgb(204, 122, 164) calc(39.019deg), rgb(204, 122, 164) 48.649deg, rgb(189, 105, 162) calc(48.749deg), rgb(189, 105, 162) 58.378deg, rgb(173, 90, 160) calc(58.478deg), rgb(173, 90, 160) 68.108deg, rgb(159, 76, 158) calc(68.208deg), rgb(159, 76, 158) 77.838deg, rgb(145, 64, 156) calc(77.938deg), rgb(145, 64, 156) 87.568deg, rgb(132, 53, 154) calc(87.668deg), rgb(132, 53, 154) 97.297deg, rgb(120, 44, 152) calc(97.397deg), rgb(120, 44, 152) 107.027deg, rgb(108, 37, 151) calc(107.127deg), rgb(108, 37, 151) 116.757deg, rgb(98, 32, 149) calc(116.857deg), rgb(98, 32, 149) 126.486deg, rgb(88, 29, 147) calc(126.586deg), rgb(88, 29, 147) 136.216deg, rgb(80, 28, 145) calc(136.316deg), rgb(80, 28, 145) 145.946deg, rgb(72, 30, 143) calc(146.046deg), rgb(72, 30, 143) 155.676deg, rgb(66, 34, 141) calc(155.776deg), rgb(66, 34, 141) 165.405deg, rgb(61, 39, 139) calc(165.505deg), rgb(61, 39, 139) 175.135deg, rgb(57, 47, 137) calc(175.235deg), rgb(57, 47, 137) 184.865deg, rgb(54, 57, 135) calc(184.965deg), rgb(54, 57, 135) 194.595deg, rgb(53, 69, 133) calc(194.695deg), rgb(53, 69, 133) 204.324deg, rgb(53, 82, 131) calc(204.424deg), rgb(53, 82, 131) 214.054deg, rgb(54, 97, 129) calc(214.154deg), rgb(54, 97, 129) 223.784deg, rgb(56, 112, 127) calc(223.884deg), rgb(56, 112, 127) 233.514deg, rgb(59, 129, 124) calc(233.614deg), rgb(59, 129, 124) 243.243deg, rgb(64, 146, 122) calc(243.343deg), rgb(64, 146, 122) 252.973deg, rgb(70, 164, 120) calc(253.073deg), rgb(70, 164, 120) 262.703deg, rgb(77, 181, 118) calc(262.803deg), rgb(77, 181, 118) 272.432deg, rgb(85, 198, 116) calc(272.532deg), rgb(85, 198, 116) 282.162deg, rgb(94, 215, 114) calc(282.262deg), rgb(94, 215, 114) 291.892deg, rgb(104, 231, 112) calc(291.992deg), rgb(104, 231, 112) 301.622deg, rgb(116, 246, 110) calc(301.722deg), rgb(116, 246, 110) 311.351deg, rgb(128, 255, 108) calc(311.451deg), rgb(128, 255, 108) 321.081deg, rgb(140, 255, 105) calc(321.181deg), rgb(140, 255, 105) 330.811deg, rgb(154, 255, 103) calc(330.911deg), rgb(154, 255, 103) 340.541deg, rgb(168, 255, 101) calc(340.641deg), rgb(168, 255, 101) 350.27deg, rgb(183, 255, 99) calc(350.37deg), rgb(183, 255, 99) 360deg); background-size: cover; background-position: center center; background-repeat: no-repeat;"
+*/
